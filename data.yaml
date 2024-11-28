@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [14, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+
+nc: 5
+names: ['Bottom-UP', 'Plank', 'barbell biceps', 'deadlift', 'squat']
+
+roboflow:
+  workspace: ann-ie3wi
+  project: ann-eeoiv
+  version: 8
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ann-ie3wi/ann-eeoiv/dataset/8
